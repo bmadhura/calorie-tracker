@@ -1,0 +1,16 @@
+/* You can add global styles to this file, and also import other style files */
+
+
+.container {
+    width: 1200px;
+    margin: auto;   
+}
+
+@media screen and (max-width: 1200px) {
+    .container {
+        width: 100%;
+        padding: 0 20px;
+    }
+}
+/* Importing Bootstrap SCSS file. */
+@import 'bootstrap/scss/bootstrap';

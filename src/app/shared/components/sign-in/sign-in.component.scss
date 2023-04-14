@@ -1,0 +1,23 @@
+.login-background{
+    background-image: url("../../../../assets/images/login_page_background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px rgba(3, 56, 139, 0.6);
+}
+
+.login{
+    z-index: 1;
+    width: 380px;
+    height: 250px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+}
